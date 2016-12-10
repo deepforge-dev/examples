@@ -4,7 +4,7 @@
 First, you will need to clone the project locally:
 
 ```
-    git clone https://github.com/dfst/examples
+    git clone https://github.com/deepforge-dev/examples
 ```
 
 Then you can load examples into DeepForge as follows:
