@@ -1,4 +1,5 @@
 # DeepForge example projects
+This repository contains example projects for DeepForge v2. For legacy DeepForge examples, check out the [v1 branch](https://github.com/deepforge-dev/examples/tree/v1.x).
 
 ## Loading Examples
 First, you will need to clone the project locally:
