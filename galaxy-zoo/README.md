@@ -4,7 +4,7 @@ This is a simple example using the Galaxy Zoo dataset (also seen in [the Galaxy 
 The example project contains the training data and can be downloaded from [here](https://deepforge.s3.amazonaws.com/galaxy-data.webgmex?AWSAccessKeyId=AKIAISTYNTKQZLV6IVLQ&Expires=1633932738&Signature=8%2BlF1x%2FsF0fGE0K0DGBLjG1R9v0%3D). Or, if you prefer downloading from the console:
 
 ```
-wget https://deepforge.s3.amazonaws.com/galaxy-data.webgmex?AWSAccessKeyId=AKIAISTYNTKQZLV6IVLQ&Expires=1633932738&Signature=8%2BlF1x%2FsF0fGE0K0DGBLjG1R9v0%3D -O galaxy-data.webgmex
+wget -O galaxy-data.webgmex https://deepforge.s3.amazonaws.com/galaxy-data.webgmex?AWSAccessKeyId=AKIAISTYNTKQZLV6IVLQ&Expires=1633932738&Signature=8%2BlF1x%2FsF0fGE0K0DGBLjG1R9v0%3D
 ```
 
 In this example, we are simply cropping a 106x106 section of the image and training either a feed-forward neural network or a convolutional neural network. The architecture for the convolutional neural network is based on the paper by Sandor Dieleman. The entire citation for the paper is given below.
