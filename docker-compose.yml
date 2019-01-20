@@ -5,10 +5,9 @@ services:
     volumes: 
       - "$HOME/.deepforge/data:/data/db"
   server: 
-    command: "bash -c 'deepforge extensions add deepforge-dev/deepforge-keras && deepforge start -s'"
     environment: 
       - "MONGO_URI=mongodb://mongo:27017/deepforge"
-    image: deepforge/server
+    image: deepforge/demo-server
     ports: 
       - "8888:8888"
     volumes: 
