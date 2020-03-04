@@ -26,7 +26,7 @@ Since, the exported webgme project is quite large, you can download it from [her
 
 The model designed in deepforge is as follows:
 
-![incpetionModel](../screenshots/inceptionblocks.png)
+![inceptionModel](../screenshots/inceptionblocks.png)
 
 
 For more details on the implementation please visit this github [repo](https://github.com/umesh-timalsina/redshift).
