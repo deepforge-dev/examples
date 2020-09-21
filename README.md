@@ -15,8 +15,7 @@ If you do not have a deployment of deepforge handy, you can quickly spin up one 
 ```
 After that, DeepForge can be used from the browser at http://localhost:8888.
 
-**Note**: Further instruction on deployment can be accessed [here](https://deepforge.readthedocs.io/en/latest
-/deployment/quick_start.html). 
+**Note**: Further instruction on deployment can be accessed [here](https://deepforge.readthedocs.io/en/latest/deployment/quick_start.html). 
 
 
 Then you can load examples into DeepForge as follows:
